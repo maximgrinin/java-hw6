@@ -29,13 +29,13 @@ public class Main {
         // второе число - сколько выпало второй раз. Напишите, что выиграет Марин
 
         System.out.print("Введите что выпало в первый раз: ");
-        int value1 = scanner.nextInt();
+        int firstRoll = scanner.nextInt();
         System.out.print("Введите что выпало во второй раз: ");
-        int value2 = scanner.nextInt();
+        int secondRoll = scanner.nextInt();
 
-        if (value1 == 36 && value2 == 17) {
+        if (firstRoll == 36 && secondRoll == 17) {
             System.out.println("Джекпот!");
-        } else if (value1 == 36 || value2 == 17) {
+        } else if (firstRoll == 36 || secondRoll == 17) {
             System.out.println("Маленький приз");
         } else {
             System.out.println("Мартин все проиграл");
